@@ -15,7 +15,7 @@ logging.basicConfig(filename='sharedata.log', level=logging.INFO,
 class Shareprices:
 
     def __init__(self,stckSymbol):
-        self.stckSymbol = stckSymbol;
+        self.stckSymbol = stckSymbol
         header = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 Edg/87.0.664.52'}
         link = requests.post('https://www.nepalipaisa.com/Modules/GraphModule/webservices/MarketWatchService.asmx/GetTodaySharePrices',
                         data={"fromdate": "", "toDate": "", "stockSymbol": self.stckSymbol, "offset": "1", "limit": "50"},
@@ -25,25 +25,13 @@ class Shareprices:
 
 
 
-        datas = {'tool': 'data-html-to-json-converter',
-                'parameters':json.dumps({
-                            "indent":True,
-                            "unescapeJson":True,
-                            "mode":"Auto",
-                            "attributePrefix":"@",
-                            "textPropertyName":"#text",
-                            "input":response})}
+        
+        self.data = link.json()
+        if self.data != []:
+            self.todayshareprice = self.data['arrayoftodayshareprice']['todayshareprice']
 
-        with requests.session() as s:
-
-            l = s.post('https://toolslick.com/api/process',
-                        data=datas,
-                        headers=header)
-            self.data = l.json()
-        self.todayshareprice = self.data['arrayoftodayshareprice']['todayshareprice']
-
-        self.dt_obj = datetime.strptime(self.todayshareprice['asofdate'],'%Y-%m-%dT%H:%M:%S')
-        self.new_dt = self.dt_obj.strftime('%d %B, %Y')
+            self.dt_obj = datetime.strptime(self.todayshareprice['asofdate'],'%Y-%m-%dT%H:%M:%S')
+            self.new_dt = self.dt_obj.strftime('%d %B, %Y')
 
 
         # self.
@@ -276,18 +264,18 @@ class Telegram:
 if __name__ == "__main__":
 
     #GETTING STORED DATA FROM CREDENTIALS
-    with open("..\\sharecreds.json","rb") as file:
-        creds = json.loads(file.read())
-        bot_api = creds['Nkd_bot']
-        channel_id = '-100'+creds['channel_ID']
+    # with open("..\\sharecreds.json","rb") as file:
+    #     creds = json.loads(file.read())
+    #     bot_api = creds['Nkd_bot']
+    #     channel_id = '-100'+creds['channel_ID']
 
     obj = Shareprices("SGI")
 
     obj.writetextfile('shareinfo.txt')
     obj.writeCsv('sgitoday.csv')
-    obj.send_to_telegram((bot_api,channel_id))
+    # obj.send_to_telegram((bot_api,channel_id))
 
     obj = Shareprices("NIFRA")
     obj.writetextfile('nifrashare.txt')
     obj.writeCsv('nifratoday.csv')
-    obj.send_to_telegram((bot_api,channel_id))
+    # obj.send_to_telegram((bot_api,channel_id))
