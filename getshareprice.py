@@ -28,9 +28,9 @@ class Shareprices:
         
         self.data = link.json()
         if self.data != []:
-            self.todayshareprice = self.data['arrayoftodayshareprice']['todayshareprice']
+            self.todayshareprice = self.data[0]
 
-            self.dt_obj = datetime.strptime(self.todayshareprice['asofdate'],'%Y-%m-%dT%H:%M:%S')
+            self.dt_obj = datetime.strptime(self.todayshareprice['AsOfDate'],'%Y-%m-%dT%H:%M:%S')
             self.new_dt = self.dt_obj.strftime('%d %B, %Y')
 
 
