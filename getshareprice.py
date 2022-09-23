@@ -16,21 +16,31 @@ class Shareprices:
 
     def __init__(self,stckSymbol):
         self.stckSymbol = stckSymbol
-        header = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 Edg/87.0.664.52'}
+        header = {
+            'Accept':'application/json',
+            'Accept-Language':'en-US,en;q=0.9',
+            'Cache-Control':'no-cache',
+            'Content-Type': 'application/json; charset=UTF-8',
+            'Origin':'https://nepalipaisa.com',
+            'Pragma':'no-cache',
+            'Referer':'https://nepalipaisa.com/Todays-Share-Price.aspx',
+            'X-Requested-With':'XMLHttpRequest',
+            'Content-Length': '70',
+            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 Edg/87.0.664.52'}
         link = requests.post('https://www.nepalipaisa.com/Modules/GraphModule/webservices/MarketWatchService.asmx/GetTodaySharePrices',
-                        data={"fromdate": "", "toDate": "", "stockSymbol": self.stckSymbol, "offset": "1", "limit": "50"},
+                        data=json.dumps({"fromdate": "", "toDate": "", "stockSymbol": self.stckSymbol, "offset": "1", "limit": "50"}),
                         headers=header)
 
         response = link.text
+        print(response)
 
 
-
-        
+        # raise Exception("data")
         self.data = link.json()
-        if self.data != []:
-            self.todayshareprice = self.data[0]
+        if self.data["d"] != []:
+            self.todayshareprice = self.data["d"][0]
 
-            self.dt_obj = datetime.strptime(self.todayshareprice['AsOfDate'],'%Y-%m-%dT%H:%M:%S')
+            self.dt_obj = datetime.strptime(self.todayshareprice['AsOfDateShortString'],'%Y-%m-%d')
             self.new_dt = self.dt_obj.strftime('%d %B, %Y')
 
 
@@ -43,26 +53,27 @@ class Shareprices:
 
         :return: The text message consisting the information about the share prices
         """
-
-        tosendText = f"""Share Symbol: **{self.todayshareprice['stocksymbol']}**
-Name: __{self.todayshareprice['stockname']}__
+        if not self.todayshareprice['StockSymbol']:
+            return
+        tosendText = f"""Share Symbol: **{self.todayshareprice['StockSymbol']}**
+Name: __{self.todayshareprice['StockName']}__
 ************************************
-Number of transaction : **{self.todayshareprice['nooftransaction']}**
+Number of transaction : **{self.todayshareprice['NoOfTransaction']}**
 ```
-Max Price: Rs. {self.todayshareprice['maxprice']}
-Min Price: Rs. {self.todayshareprice['minprice']}
-```
-****************
-```
-Closing Price: Rs. {self.todayshareprice['closingprice']}
-Difference: {self.todayshareprice['difference']}
+Max Price: Rs. {self.todayshareprice['MaxPrice']}
+Min Price: Rs. {self.todayshareprice['MinPrice']}
 ```
 ****************
 ```
-Traded Shares: {self.todayshareprice['tradedshares']}
-Traded Amount: {self.todayshareprice['tradedamount']}
-Previous Closing: {self.todayshareprice['previousclosing']}
-Percent Difference: {self.todayshareprice['percentdifference']}```
+Closing Price: Rs. {self.todayshareprice['ClosingPrice']}
+Difference: {self.todayshareprice['Difference']}
+```
+****************
+```
+Traded Shares: {self.todayshareprice['TradedShares']}
+Traded Amount: {self.todayshareprice['TradedAmount']}
+Previous Closing: {self.todayshareprice['PreviousClosing']}
+Percent Difference: {self.todayshareprice['PercentDifference']}```
 .......................................
 Date: {self.new_dt}"""
         return tosendText
@@ -99,17 +110,17 @@ Date: {self.new_dt}"""
 
 
         row_data = {
-                    'Share Symbol': self.todayshareprice['stocksymbol'],
-                    'Name': self.todayshareprice['stockname'],
-                    'Number of transaction' : self.todayshareprice['nooftransaction'],
-                    'Max Price': 'Rs. '+ self.todayshareprice['maxprice'],
-                    'Min Price': 'Rs. ' + self.todayshareprice['minprice'],
-                    'Closing Price': 'Rs. '+ self.todayshareprice['closingprice'],
-                    'Difference': self.todayshareprice['difference'],
-                    'Traded Shares': self.todayshareprice['tradedshares'],
-                    'Traded Amount': self.todayshareprice['tradedamount'],
-                    'Previous Closing': self.todayshareprice['previousclosing'],
-                    'Percent Difference': self.todayshareprice['percentdifference'],
+                    'Share Symbol': str(self.todayshareprice['StockSymbol']),
+                    'Name': str(self.todayshareprice['StockName']),
+                    'Number of transaction' : str(self.todayshareprice['NoOfTransaction']),
+                    'Max Price': 'Rs. '+ str(self.todayshareprice['MaxPrice']),
+                    'Min Price': 'Rs. ' + str(self.todayshareprice['MinPrice']),
+                    'Closing Price': 'Rs. '+ str(self.todayshareprice['ClosingPrice']),
+                    'Difference': str(self.todayshareprice['Difference']),
+                    'Traded Shares': str(self.todayshareprice['TradedShares']),
+                    'Traded Amount': str(self.todayshareprice['TradedAmount']),
+                    'Previous Closing': str(self.todayshareprice['PreviousClosing']),
+                    'Percent Difference': str(self.todayshareprice['PercentDifference']),
                     'Date': self.new_dt
                 }
 
@@ -269,10 +280,10 @@ if __name__ == "__main__":
     #     bot_api = creds['Nkd_bot']
     #     channel_id = '-100'+creds['channel_ID']
 
-    obj = Shareprices("SGI")
+    # obj = Shareprices("SGI")
 
-    obj.writetextfile('shareinfo.txt')
-    obj.writeCsv('sgitoday.csv')
+    # obj.writetextfile('shareinfo.txt')
+    # obj.writeCsv('sgitoday.csv')
     # obj.send_to_telegram((bot_api,channel_id))
 
     obj = Shareprices("NIFRA")
