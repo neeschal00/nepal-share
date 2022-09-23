@@ -297,15 +297,6 @@ if __name__ == "__main__":
     # obj.writeCsv('sgitoday.csv')
     # # obj.send_to_telegram((bot_api,channel_id))
 
-    # obj = Shareprices("SLI")
-
-    # obj.writetextfile('shareinfo.txt')
-    # obj.writeCsv('slitoday.csv')
-
-    # obj = Shareprices("")
-
-    # obj.writetextfile('shareinfo.txt')
-    # obj.writeCsv('sgitoday.csv')
 
     # obj = Shareprices("NIFRA")
     # obj.writetextfile('nifrashare.txt')
