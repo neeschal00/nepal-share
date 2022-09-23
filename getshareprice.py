@@ -42,8 +42,8 @@ class Shareprices:
 
             self.dt_obj = datetime.strptime(self.todayshareprice['AsOfDateShortString'],'%Y-%m-%d')
             self.new_dt = self.dt_obj.strftime('%d %B, %Y')
-
-
+        else:
+            logging.error("The {self.stckSymbol} info not found")
         # self.
 
 
@@ -280,13 +280,30 @@ if __name__ == "__main__":
     #     bot_api = creds['Nkd_bot']
     #     channel_id = '-100'+creds['channel_ID']
 
+    my_shares = ['SGI','NIFRA','SLI','GVL','MBJC','RULB','USHEC']
+
+    for symbol in my_shares:
+        obj = Shareprices(symbol)
+        obj.writetextfile(symbol.lower()+'_info.txt')
+        obj.writeCsv(symbol.lower+'_today.csv')
+
     # obj = Shareprices("SGI")
 
     # obj.writetextfile('shareinfo.txt')
     # obj.writeCsv('sgitoday.csv')
-    # obj.send_to_telegram((bot_api,channel_id))
+    # # obj.send_to_telegram((bot_api,channel_id))
 
-    obj = Shareprices("NIFRA")
-    obj.writetextfile('nifrashare.txt')
-    obj.writeCsv('nifratoday.csv')
+    # obj = Shareprices("SLI")
+
+    # obj.writetextfile('shareinfo.txt')
+    # obj.writeCsv('slitoday.csv')
+
+    # obj = Shareprices("")
+
+    # obj.writetextfile('shareinfo.txt')
+    # obj.writeCsv('sgitoday.csv')
+
+    # obj = Shareprices("NIFRA")
+    # obj.writetextfile('nifrashare.txt')
+    # obj.writeCsv('nifratoday.csv')
     # obj.send_to_telegram((bot_api,channel_id))
