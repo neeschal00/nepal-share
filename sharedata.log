@@ -159,3 +159,31 @@ ERROR:The data has already been updated
 INFO:The share data of Date:27 May, 2021 is updated
 ERROR:The data has already been updated
 INFO:The share data of Date:27 May, 2021 is updated
+ERROR:The {self.stckSymbol} info not found
+ERROR:The {self.stckSymbol} info not found
+ERROR:The {self.stckSymbol} info not found
+ERROR:The {self.stckSymbol} info not found
+ERROR:unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'
+ERROR:The {self.stckSymbol} info not found
+INFO:Share file named 'gvl_info.txt' created successfully and valid latest data entered
+ERROR:unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'
+INFO:Share file named 'mbjc_info.txt' created successfully and valid latest data entered
+ERROR:unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'
+INFO:Share file named 'rulb_info.txt' created successfully and valid latest data entered
+ERROR:unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'
+INFO:Share file named 'ushec_info.txt' created successfully and valid latest data entered
+ERROR:unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'
+ERROR:The {self.stckSymbol} info not found
+ERROR:unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'
+ERROR:The {self.stckSymbol} info not found
+ERROR:unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'
+ERROR:unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'
+ERROR:unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'
+ERROR:unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'
+ERROR:The {self.stckSymbol} info not found
+ERROR:unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'
+ERROR:The {self.stckSymbol} info not found
+ERROR:unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'
+ERROR:unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'
+ERROR:unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'
+ERROR:unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'

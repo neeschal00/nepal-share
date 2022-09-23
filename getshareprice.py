@@ -32,9 +32,6 @@ class Shareprices:
                         headers=header)
 
         response = link.text
-        print(response)
-
-
         # raise Exception("data")
         self.data = link.json()
         if self.data["d"] != []:
@@ -43,7 +40,8 @@ class Shareprices:
             self.dt_obj = datetime.strptime(self.todayshareprice['AsOfDateShortString'],'%Y-%m-%d')
             self.new_dt = self.dt_obj.strftime('%d %B, %Y')
         else:
-            logging.error("The {self.stckSymbol} info not found")
+            # logging.error("")
+            raise Exception("The {self.stckSymbol} info not found")
         # self.
 
 
@@ -53,9 +51,8 @@ class Shareprices:
 
         :return: The text message consisting the information about the share prices
         """
-        if not self.todayshareprice['StockSymbol']:
-            return
-        tosendText = f"""Share Symbol: **{self.todayshareprice['StockSymbol']}**
+        try:
+            tosendText = f"""Share Symbol: **{self.todayshareprice['StockSymbol']}**
 Name: __{self.todayshareprice['StockName']}__
 ************************************
 Number of transaction : **{self.todayshareprice['NoOfTransaction']}**
@@ -76,7 +73,11 @@ Previous Closing: {self.todayshareprice['PreviousClosing']}
 Percent Difference: {self.todayshareprice['PercentDifference']}```
 .......................................
 Date: {self.new_dt}"""
-        return tosendText
+            return tosendText
+        except:
+            return
+
+
 
     def writetextfile(self,filepath:str):
         _todayShare = self.shareinfo()
@@ -283,9 +284,12 @@ if __name__ == "__main__":
     my_shares = ['SGI','NIFRA','SLI','GVL','MBJC','RULB','USHEC']
 
     for symbol in my_shares:
-        obj = Shareprices(symbol)
-        obj.writetextfile(symbol.lower()+'_info.txt')
-        obj.writeCsv(symbol.lower+'_today.csv')
+        try:
+            obj = Shareprices(symbol)
+            obj.writetextfile(symbol.lower()+'_info.txt')
+            obj.writeCsv(symbol.lower+'_today.csv')
+        except Exception as error:
+            logging.error(error)
 
     # obj = Shareprices("SGI")
 
