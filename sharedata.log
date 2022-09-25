@@ -187,3 +187,21 @@ ERROR:unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'
 ERROR:unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'
 ERROR:unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'
 ERROR:unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'
+ERROR:The {self.stckSymbol} info not found
+ERROR:[Errno 2] No such file or directory: '/ShareData/nifra_info.txt'
+ERROR:The {self.stckSymbol} info not found
+ERROR:[Errno 2] No such file or directory: '/ShareData/gvl_info.txt'
+ERROR:[Errno 2] No such file or directory: '/ShareData/mbjc_info.txt'
+ERROR:[Errno 2] No such file or directory: '/ShareData/rulb_info.txt'
+ERROR:[Errno 2] No such file or directory: '/ShareData/ushec_info.txt'
+ERROR:The {self.stckSymbol} info not found
+ERROR:can only concatenate str (not "builtin_function_or_method") to str
+ERROR:The {self.stckSymbol} info not found
+ERROR:can only concatenate str (not "builtin_function_or_method") to str
+ERROR:can only concatenate str (not "builtin_function_or_method") to str
+ERROR:can only concatenate str (not "builtin_function_or_method") to str
+ERROR:can only concatenate str (not "builtin_function_or_method") to str
+ERROR:The {self.stckSymbol} info not found
+ERROR:The {self.stckSymbol} info not found
+ERROR:The data of SGI not found
+ERROR:The data of SLI not found
