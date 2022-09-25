@@ -1,0 +1,789 @@
+Share Symbol: NIFRA
+Name: Nepal Infrastructure Bank Limited
+:::::::::::::::::::::::::::::::::::::::
+Number of transaction : 1479
+:::::::::::::::::::::::::::::::::::::::
+Max Price: Rs. 374
+Min Price: Rs. 340
+Closing Price: Rs. 374
+Difference: 34.00
+:::::::::::::::::::::::::::::::::::::::
+Traded Shares: 59931.00
+Traded Amount: 22154433.00
+Previous Closing: 340
+Percent Difference: 10.00
+.......................................
+Date: 14 February, 2021Share Symbol: NIFRA
+Name: Nepal Infrastructure Bank Limited
+:::::::::::::::::::::::::::::::::::::::
+Number of transaction : 1072
+:::::::::::::::::::::::::::::::::::::::
+Max Price: Rs. 411
+Min Price: Rs. 392
+Closing Price: Rs. 411
+Difference: 37.00
+:::::::::::::::::::::::::::::::::::::::
+Traded Shares: 47850.00
+Traded Amount: 19661613.00
+Previous Closing: 374
+Percent Difference: 9.89
+.......................................
+Date: 15 February, 2021Share Symbol: NIFRA
+Name: Nepal Infrastructure Bank Limited
+:::::::::::::::::::::::::::::::::::::::
+Number of transaction : 1055
+:::::::::::::::::::::::::::::::::::::::
+Max Price: Rs. 452
+Min Price: Rs. 431
+Closing Price: Rs. 452
+Difference: 41.00
+:::::::::::::::::::::::::::::::::::::::
+Traded Shares: 49192.00
+Traded Amount: 22215572.00
+Previous Closing: 411
+Percent Difference: 9.98
+.......................................
+Date: 16 February, 2021Share Symbol: NIFRA
+Name: Nepal Infrastructure Bank Limited
+:::::::::::::::::::::::::::::::::::::::
+Number of transaction : 16724
+:::::::::::::::::::::::::::::::::::::::
+Max Price: Rs. 497
+Min Price: Rs. 474
+Closing Price: Rs. 497
+Difference: 45.00
+:::::::::::::::::::::::::::::::::::::::
+Traded Shares: 1397128.00
+Traded Amount: 694361119.00
+Previous Closing: 452
+Percent Difference: 9.96
+.......................................
+Date: 17 February, 2021Share Symbol: NIFRA
+Name: Nepal Infrastructure Bank Limited
+:::::::::::::::::::::::::::::::::::::::
+Number of transaction : 16000
+:::::::::::::::::::::::::::::::::::::::
+Max Price: Rs. 546
+Min Price: Rs. 521
+Closing Price: Rs. 546
+Difference: 49.00
+:::::::::::::::::::::::::::::::::::::::
+Traded Shares: 932534.00
+Traded Amount: 508269835.00
+Previous Closing: 497
+Percent Difference: 9.86
+.......................................
+Date: 18 February, 2021Share Symbol: NIFRA
+Name: Nepal Infrastructure Bank Limited
+:::::::::::::::::::::::::::::::::::::::
+Number of transaction : 13752
+:::::::::::::::::::::::::::::::::::::::
+Max Price: Rs. 600
+Min Price: Rs. 573
+Closing Price: Rs. 600
+Difference: 54.00
+:::::::::::::::::::::::::::::::::::::::
+Traded Shares: 920940.00
+Traded Amount: 552112023.00
+Previous Closing: 546
+Percent Difference: 9.89
+.......................................
+Date: 21 February, 2021Share Symbol: NIFRA
+Name: Nepal Infrastructure Bank Limited
+:::::::::::::::::::::::::::::::::::::::
+Number of transaction : 7014
+:::::::::::::::::::::::::::::::::::::::
+Max Price: Rs. 660
+Min Price: Rs. 630
+Closing Price: Rs. 660
+Difference: 60.00
+:::::::::::::::::::::::::::::::::::::::
+Traded Shares: 487154.00
+Traded Amount: 321231917.00
+Previous Closing: 600
+Percent Difference: 10.00
+.......................................
+Date: 22 February, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+:::::::::::::::::::::::::::::::::::::::
+Number of transaction : __7014__
+
+:::::::::::::::::::::::::::::::::::::::
+
+```Max Price: Rs. 660
+Min Price: Rs. 630
+Closing Price: Rs. 660
+Difference: 60.00```
+
+:::::::::::::::::::::::::::::::::::::::
+
+```Traded Shares: 487154.00
+Traded Amount: 321231917.00
+Previous Closing: 600
+Percent Difference: 10.00```
+.......................................
+Date: __22 February, 2021__Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+*******************************
+Number of transaction : __11055__
+```
+Max Price: Rs. 726
+Min Price: Rs. 594
+Closing Price: Rs. 594
+Difference: -66.00```
+
+```
+Traded Shares: 1081395.00
+Traded Amount: 739452518.00
+Previous Closing: 660
+Percent Difference: -10.00```
+.......................................
+Date: __23 February, 2021__Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __11055__
+```
+Max Price: Rs. 726
+Min Price: Rs. 594
+Closing Price: Rs. 594
+Difference: -66.00```
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+```
+Traded Shares: 1081395.00
+Traded Amount: 739452518.00
+Previous Closing: 660
+Percent Difference: -10.00```
+.......................................
+Date: 23 February, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __30002__
+```
+Max Price: Rs. 595
+Min Price: Rs. 526
+Closing Price: Rs. 543
+Difference: -19.00```
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+```
+Traded Shares: 1649933.00
+Traded Amount: 903567577.00
+Previous Closing: 562
+Percent Difference: -3.38```
+.......................................
+Date: 25 February, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __11795__
+```
+Max Price: Rs. 558
+Min Price: Rs. 508
+Closing Price: Rs. 552
+Difference: 44.00```
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+```
+Traded Shares: 989491.00
+Traded Amount: 532390676.00
+Previous Closing: 508
+Percent Difference: 8.66```
+.......................................
+Date: 04 March, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __9288__
+```
+Max Price: Rs. 570
+Min Price: Rs. 539
+Closing Price: Rs. 542
+Difference: -10.00```
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+```
+Traded Shares: 779371.00
+Traded Amount: 427840924.00
+Previous Closing: 552
+Percent Difference: -1.81```
+.......................................
+Date: 07 March, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __7124__
+```
+Max Price: Rs. 547
+Min Price: Rs. 528
+```
+****************
+```
+Closing Price: Rs. 532
+Difference: -10.00
+```
+****************
+```
+Traded Shares: 476968.00
+Traded Amount: 254979498.00
+Previous Closing: 542
+Percent Difference: -1.85```
+.......................................
+Date: 09 March, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __6514__
+```
+Max Price: Rs. 540
+Min Price: Rs. 522
+```
+****************
+```
+Closing Price: Rs. 531
+Difference: -1.00
+```
+****************
+```
+Traded Shares: 389669.00
+Traded Amount: 207125154.00
+Previous Closing: 532
+Percent Difference: -0.19```
+.......................................
+Date: 10 March, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __7824__
+```
+Max Price: Rs. 541
+Min Price: Rs. 521
+```
+****************
+```
+Closing Price: Rs. 523
+Difference: -8.00
+```
+****************
+```
+Traded Shares: 521372.00
+Traded Amount: 275668518.00
+Previous Closing: 531
+Percent Difference: -1.51```
+.......................................
+Date: 14 March, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __9786__
+```
+Max Price: Rs. 557
+Min Price: Rs. 528
+```
+****************
+```
+Closing Price: Rs. 537
+Difference: 14.00
+```
+****************
+```
+Traded Shares: 807526.00
+Traded Amount: 436221809.00
+Previous Closing: 523
+Percent Difference: 2.68```
+.......................................
+Date: 15 March, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __4864__
+```
+Max Price: Rs. 604
+Min Price: Rs. 590
+```
+****************
+```
+Closing Price: Rs. 593
+Difference: 1.00
+```
+****************
+```
+Traded Shares: 508187.00
+Traded Amount: 302623446.00
+Previous Closing: 592
+Percent Difference: 0.17```
+.......................................
+Date: 31 March, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __7841__
+```
+Max Price: Rs. 600
+Min Price: Rs. 577
+```
+****************
+```
+Closing Price: Rs. 581
+Difference: -14.00
+```
+****************
+```
+Traded Shares: 814795.00
+Traded Amount: 475699499.00
+Previous Closing: 595
+Percent Difference: -2.35```
+.......................................
+Date: 04 April, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __5633__
+```
+Max Price: Rs. 588
+Min Price: Rs. 574
+```
+****************
+```
+Closing Price: Rs. 576
+Difference: -5.00
+```
+****************
+```
+Traded Shares: 500352.00
+Traded Amount: 289463828.00
+Previous Closing: 581
+Percent Difference: -0.86```
+.......................................
+Date: 05 April, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __7433__
+```
+Max Price: Rs. 606
+Min Price: Rs. 572
+```
+****************
+```
+Closing Price: Rs. 606
+Difference: 30.00
+```
+****************
+```
+Traded Shares: 672591.00
+Traded Amount: 398057236.00
+Previous Closing: 576
+Percent Difference: 5.21```
+.......................................
+Date: 06 April, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __4812__
+```
+Max Price: Rs. 612
+Min Price: Rs. 591
+```
+****************
+```
+Closing Price: Rs. 592
+Difference: -14.00
+```
+****************
+```
+Traded Shares: 468589.00
+Traded Amount: 280491735.00
+Previous Closing: 606
+Percent Difference: -2.31```
+.......................................
+Date: 07 April, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __4303__
+```
+Max Price: Rs. 621
+Min Price: Rs. 588
+```
+****************
+```
+Closing Price: Rs. 589
+Difference: -3.00
+```
+****************
+```
+Traded Shares: 432501.00
+Traded Amount: 255524149.00
+Previous Closing: 592
+Percent Difference: -0.51```
+.......................................
+Date: 08 April, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __5223__
+```
+Max Price: Rs. 590
+Min Price: Rs. 580
+```
+****************
+```
+Closing Price: Rs. 584
+Difference: -5.00
+```
+****************
+```
+Traded Shares: 377732.00
+Traded Amount: 221197570.00
+Previous Closing: 589
+Percent Difference: -0.85```
+.......................................
+Date: 12 April, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __4436__
+```
+Max Price: Rs. 589
+Min Price: Rs. 580
+```
+****************
+```
+Closing Price: Rs. 585
+Difference: 1.00
+```
+****************
+```
+Traded Shares: 361253.00
+Traded Amount: 211026053.00
+Previous Closing: 584
+Percent Difference: 0.17```
+.......................................
+Date: 13 April, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __8603__
+```
+Max Price: Rs. 604
+Min Price: Rs. 580
+```
+****************
+```
+Closing Price: Rs. 594
+Difference: 9.00
+```
+****************
+```
+Traded Shares: 835570.00
+Traded Amount: 498734273.00
+Previous Closing: 585
+Percent Difference: 1.54```
+.......................................
+Date: 15 April, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __4934__
+```
+Max Price: Rs. 572
+Min Price: Rs. 561
+```
+****************
+```
+Closing Price: Rs. 562
+Difference: -10.00
+```
+****************
+```
+Traded Shares: 457462.00
+Traded Amount: 258748348.00
+Previous Closing: 572
+Percent Difference: -1.75```
+.......................................
+Date: 22 April, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __5784__
+```
+Max Price: Rs. 541
+Min Price: Rs. 520
+```
+****************
+```
+Closing Price: Rs. 526
+Difference: -15.00
+```
+****************
+```
+Traded Shares: 476237.00
+Traded Amount: 252981740.00
+Previous Closing: 541
+Percent Difference: -2.77```
+.......................................
+Date: 26 April, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __2675__
+```
+Max Price: Rs. 555
+Min Price: Rs. 532
+```
+****************
+```
+Closing Price: Rs. 545
+Difference: -2.00
+```
+****************
+```
+Traded Shares: 209761.00
+Traded Amount: 114641622.00
+Previous Closing: 547
+Percent Difference: -0.37```
+.......................................
+Date: 28 April, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __2684__
+```
+Max Price: Rs. 549
+Min Price: Rs. 534
+```
+****************
+```
+Closing Price: Rs. 542
+Difference: -3.00
+```
+****************
+```
+Traded Shares: 210781.00
+Traded Amount: 114279443.00
+Previous Closing: 545
+Percent Difference: -0.55```
+.......................................
+Date: 29 April, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __4014__
+```
+Max Price: Rs. 545
+Min Price: Rs. 535
+```
+****************
+```
+Closing Price: Rs. 542
+Difference: 0.00
+```
+****************
+```
+Traded Shares: 448160.00
+Traded Amount: 242246556.00
+Previous Closing: 542
+Percent Difference: 0.00```
+.......................................
+Date: 02 May, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : __3643__
+```
+Max Price: Rs. 554
+Min Price: Rs. 542
+```
+****************
+```
+Closing Price: Rs. 544
+Difference: 2.00
+```
+****************
+```
+Traded Shares: 368189.00
+Traded Amount: 201660082.00
+Previous Closing: 542
+Percent Difference: 0.37```
+.......................................
+Date: 03 May, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : **2478**
+```
+Max Price: Rs. 544
+Min Price: Rs. 539
+```
+****************
+```
+Closing Price: Rs. 540
+Difference: -4.00
+```
+****************
+```
+Traded Shares: 230204.00
+Traded Amount: 124601784.00
+Previous Closing: 544
+Percent Difference: -0.74```
+.......................................
+Date: 05 May, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : **2867**
+```
+Max Price: Rs. 540
+Min Price: Rs. 531
+```
+****************
+```
+Closing Price: Rs. 532
+Difference: -8.00
+```
+****************
+```
+Traded Shares: 282014.00
+Traded Amount: 150756153.00
+Previous Closing: 540
+Percent Difference: -1.48```
+.......................................
+Date: 06 May, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : **3759**
+```
+Max Price: Rs. 535
+Min Price: Rs. 520
+```
+****************
+```
+Closing Price: Rs. 528
+Difference: -4.00
+```
+****************
+```
+Traded Shares: 297827.00
+Traded Amount: 157395044.00
+Previous Closing: 532
+Percent Difference: -0.75```
+.......................................
+Date: 09 May, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : **2459**
+```
+Max Price: Rs. 537
+Min Price: Rs. 525
+```
+****************
+```
+Closing Price: Rs. 531
+Difference: -3.00
+```
+****************
+```
+Traded Shares: 256911.00
+Traded Amount: 136794532.00
+Previous Closing: 534
+Percent Difference: -0.56```
+.......................................
+Date: 13 May, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : **4418**
+```
+Max Price: Rs. 549
+Min Price: Rs. 526
+```
+****************
+```
+Closing Price: Rs. 547
+Difference: 16.00
+```
+****************
+```
+Traded Shares: 546356.00
+Traded Amount: 294990546.00
+Previous Closing: 531
+Percent Difference: 3.01```
+.......................................
+Date: 16 May, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : **2993**
+```
+Max Price: Rs. 560
+Min Price: Rs. 530
+```
+****************
+```
+Closing Price: Rs. 537
+Difference: -1.00
+```
+****************
+```
+Traded Shares: 371438.00
+Traded Amount: 199767111.00
+Previous Closing: 538
+Percent Difference: -0.19```
+.......................................
+Date: 20 May, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : **3512**
+```
+Max Price: Rs. 536
+Min Price: Rs. 529
+```
+****************
+```
+Closing Price: Rs. 530
+Difference: -4.00
+```
+****************
+```
+Traded Shares: 391248.00
+Traded Amount: 207873796.00
+Previous Closing: 534
+Percent Difference: -0.75```
+.......................................
+Date: 27 May, 2021Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : **737**
+```
+Max Price: Rs. 226.7
+Min Price: Rs. 211.6
+```
+****************
+```
+Closing Price: Rs. 214
+Difference: -9.1
+```
+****************
+```
+Traded Shares: 83601.00
+Traded Amount: 18020076.00
+Previous Closing: 223.1
+Percent Difference: -4.08```
+.......................................
+Date: 15 September, 2022Share Symbol: **NIFRA**
+    Name: __Nepal Infrastructure Bank Limited__
+    ************************************
+    Number of transaction : **737**
+    ```
+    Max Price: Rs. 226.7
+    Min Price: Rs. 211.6
+    ```
+    ****************
+    ```
+    Closing Price: Rs. 214
+    Difference: -9.1
+    ```
+    ****************
+    ```
+    Traded Shares: 83601.00
+    Traded Amount: 18020076.00
+    Previous Closing: 223.1
+    Percent Difference: -4.08```
+    .......................................
+    Date: 15 September, 2022Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : **737**
+```
+Max Price: Rs. 226.7
+Min Price: Rs. 211.6
+```
+****************
+```
+Closing Price: Rs. 214
+Difference: -9.1
+```
+****************
+```
+Traded Shares: 83601.00
+Traded Amount: 18020076.00
+Previous Closing: 223.1
+Percent Difference: -4.08```
+.......................................
+Date: 15 September, 2022
