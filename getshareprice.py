@@ -1,6 +1,5 @@
 import requests
 import logging
-import json
 from datetime import datetime
 from typing import Tuple
 import os
@@ -286,8 +285,8 @@ if __name__ == "__main__":
     for symbol in my_shares:
         try:
             obj = Shareprices(symbol)
-            obj.writetextfile(symbol.lower()+'_info.txt')
-            obj.writeCsv(symbol.lower+'_today.csv')
+            obj.writetextfile("/ShareData/"+symbol.lower()+'_info.txt')
+            obj.writeCsv("/ShareData/"+symbol.lower+'_today.csv')
         except Exception as error:
             logging.error(error)
 
