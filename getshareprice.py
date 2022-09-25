@@ -40,7 +40,7 @@ class Shareprices:
             self.new_dt = self.dt_obj.strftime('%d %B, %Y')
         else:
             # logging.error("")
-            raise Exception("The {self.stckSymbol} info not found")
+            raise Exception(f"The data of {self.stckSymbol} not found")
         # self.
 
 
@@ -285,8 +285,8 @@ if __name__ == "__main__":
     for symbol in my_shares:
         try:
             obj = Shareprices(symbol)
-            obj.writetextfile("/ShareData/"+symbol.lower()+'_info.txt')
-            obj.writeCsv("/ShareData/"+symbol.lower+'_today.csv')
+            obj.writetextfile("ShareData/"+symbol.lower()+'_info.txt')
+            obj.writeCsv("ShareData/"+symbol.lower()+'_today.csv')
         except Exception as error:
             logging.error(error)
 
