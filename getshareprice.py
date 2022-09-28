@@ -145,7 +145,7 @@ Date: {self.new_dt}"""
                     _w_csv.writerow(row_data)
 
     def last_updatedDT(self):
-        csv_read = open(self.stckSymbol.lower()+'today.csv','r')
+        csv_read = open(str(self.stckSymbol).lower()+'_today.csv','r')
         read_file = csv.DictReader(csv_read)
         last_updated = list(read_file)[-1]['Date']
         return last_updated

@@ -32,7 +32,7 @@ jobs:
           git config --local user.email ${{ secrets.EMAIL }}
           git config --local user.name ${{ secrets.USER_NAME }}
           git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "Share data updated" --allow-empty)
+          git commit -m "Share Data updated successflly"
           
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0
