@@ -3,7 +3,7 @@ name: Run Nepal Share Script
 on:
   schedule:
     # Runs "at UTC time 13:00 everyday" (see https://crontab.guru)
-    - cron: '0 13 * * *'
+    - cron: '0 13 * * 0-5'
 jobs:
   build:
     runs-on: ubuntu-latest
