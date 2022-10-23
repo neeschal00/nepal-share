@@ -38,4 +38,144 @@ Traded Amount: 2607646.80
 Previous Closing: 1048
 Percent Difference: -4.39```
 .......................................
-Date: 15 September, 2022
+Date: 15 September, 2022Share Symbol: **RULB**
+Name: __Rastra Utthan Laghubitta Sanstha Limited__
+************************************
+Number of transaction : **36**
+```
+Max Price: Rs. 962.4
+Min Price: Rs. 908.2
+```
+****************
+```
+Closing Price: Rs. 955
+Difference: 30.0
+```
+****************
+```
+Traded Shares: 900.00
+Traded Amount: 850272.00
+Previous Closing: 925
+Percent Difference: 3.24```
+.......................................
+Date: 12 October, 2022Share Symbol: **RULB**
+Name: __Rastra Utthan Laghubitta Sanstha Limited__
+************************************
+Number of transaction : **50**
+```
+Max Price: Rs. 960
+Min Price: Rs. 930
+```
+****************
+```
+Closing Price: Rs. 939
+Difference: -16.0
+```
+****************
+```
+Traded Shares: 1410.00
+Traded Amount: 1323270.00
+Previous Closing: 955
+Percent Difference: -1.68```
+.......................................
+Date: 13 October, 2022Share Symbol: **RULB**
+Name: __Rastra Utthan Laghubitta Sanstha Limited__
+************************************
+Number of transaction : **66**
+```
+Max Price: Rs. 960
+Min Price: Rs. 921
+```
+****************
+```
+Closing Price: Rs. 930
+Difference: -9.0
+```
+****************
+```
+Traded Shares: 1468.00
+Traded Amount: 1381219.00
+Previous Closing: 939
+Percent Difference: -0.96```
+.......................................
+Date: 16 October, 2022Share Symbol: **RULB**
+Name: __Rastra Utthan Laghubitta Sanstha Limited__
+************************************
+Number of transaction : **48**
+```
+Max Price: Rs. 940
+Min Price: Rs. 912
+```
+****************
+```
+Closing Price: Rs. 931
+Difference: 1.0
+```
+****************
+```
+Traded Shares: 620.00
+Traded Amount: 577750.00
+Previous Closing: 930
+Percent Difference: 0.11```
+.......................................
+Date: 17 October, 2022Share Symbol: **RULB**
+Name: __Rastra Utthan Laghubitta Sanstha Limited__
+************************************
+Number of transaction : **67**
+```
+Max Price: Rs. 923
+Min Price: Rs. 900
+```
+****************
+```
+Closing Price: Rs. 905.5
+Difference: -25.5
+```
+****************
+```
+Traded Shares: 1310.00
+Traded Amount: 1193206.00
+Previous Closing: 931
+Percent Difference: -2.74```
+.......................................
+Date: 19 October, 2022Share Symbol: **RULB**
+Name: __Rastra Utthan Laghubitta Sanstha Limited__
+************************************
+Number of transaction : **38**
+```
+Max Price: Rs. 906.5
+Min Price: Rs. 889.1
+```
+****************
+```
+Closing Price: Rs. 894
+Difference: -11.5
+```
+****************
+```
+Traded Shares: 1451.00
+Traded Amount: 1300457.00
+Previous Closing: 905.5
+Percent Difference: -1.27```
+.......................................
+Date: 20 October, 2022Share Symbol: **RULB**
+Name: __Rastra Utthan Laghubitta Sanstha Limited__
+************************************
+Number of transaction : **33**
+```
+Max Price: Rs. 951
+Min Price: Rs. 877
+```
+****************
+```
+Closing Price: Rs. 915
+Difference: 21.0
+```
+****************
+```
+Traded Shares: 405.00
+Traded Amount: 368747.00
+Previous Closing: 894
+Percent Difference: 2.35```
+.......................................
+Date: 23 October, 2022
