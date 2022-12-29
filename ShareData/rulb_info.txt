@@ -958,4 +958,24 @@ Traded Amount: 897762.00
 Previous Closing: 888
 Percent Difference: -0.68```
 .......................................
-Date: 28 December, 2022
+Date: 28 December, 2022Share Symbol: **RULB**
+Name: __Rastra Utthan Laghubitta Sanstha Limited__
+************************************
+Number of transaction : **53**
+```
+Max Price: Rs. 900
+Min Price: Rs. 880
+```
+****************
+```
+Closing Price: Rs. 900
+Difference: 18.0
+```
+****************
+```
+Traded Shares: 1529.00
+Traded Amount: 1367848.00
+Previous Closing: 882
+Percent Difference: 2.04```
+.......................................
+Date: 29 December, 2022
