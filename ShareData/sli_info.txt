@@ -418,4 +418,24 @@ Traded Amount: 16358393.70
 Previous Closing: 458
 Percent Difference: 6.0```
 .......................................
-Date: 09 January, 2023
+Date: 09 January, 2023Share Symbol: **SLI**
+Name: __Sanima Life Insurance Limited__
+************************************
+Number of transaction : **569**
+```
+Max Price: Rs. 498.7
+Min Price: Rs. 439
+```
+****************
+```
+Closing Price: Rs. 467
+Difference: -18.5
+```
+****************
+```
+Traded Shares: 34001.00
+Traded Amount: 16254976.60
+Previous Closing: 485.5
+Percent Difference: -3.81```
+.......................................
+Date: 10 January, 2023
