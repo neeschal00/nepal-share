@@ -413,3 +413,5 @@ ERROR:HTTPSConnectionPool(host='www.nepalipaisa.com', port=443): Max retries exc
 ERROR:HTTPSConnectionPool(host='www.nepalipaisa.com', port=443): Max retries exceeded with url: /Modules/GraphModule/webservices/MarketWatchService.asmx/GetTodaySharePrices (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7005e2c400>, 'Connection to www.nepalipaisa.com timed out. (connect timeout=None)'))
 ERROR:HTTPSConnectionPool(host='www.nepalipaisa.com', port=443): Max retries exceeded with url: /Modules/GraphModule/webservices/MarketWatchService.asmx/GetTodaySharePrices (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7005ddbaf0>, 'Connection to www.nepalipaisa.com timed out. (connect timeout=None)'))
 ERROR:HTTPSConnectionPool(host='www.nepalipaisa.com', port=443): Max retries exceeded with url: /Modules/GraphModule/webservices/MarketWatchService.asmx/GetTodaySharePrices (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7005ddb040>, 'Connection to www.nepalipaisa.com timed out. (connect timeout=None)'))
+ERROR:The data of SGI not found
+ERROR:The data of SLI not found
