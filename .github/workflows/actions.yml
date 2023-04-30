@@ -11,6 +11,12 @@ jobs:
 
       - name: checkout repo content
         uses: actions/checkout@v2 # checkout the repository content to github runner
+      
+      - name: 'Create env file'
+        run: |
+          touch .env
+          echo MONGOURL=${{ secrets.MONGOURL }} >> .env
+          cat .env
 
       - name: setup python
         uses: actions/setup-python@v4
