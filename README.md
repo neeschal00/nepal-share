@@ -7,4 +7,5 @@ from getshareprice import Shareprices
 last_updated_price = Shareprices("SGI") #Enter the Symbol number which in this case is SGI
 last_updated_price.writeCSV('sgiToday.csv') #Write the file path with the '.csv' extension
 last_updated_price.writetextfile('sgiToday.txt')
+last_updated_price.insertToMongo() #with preconfigured url in script
 ```
