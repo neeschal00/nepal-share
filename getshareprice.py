@@ -6,6 +6,10 @@ import os
 import csv
 import json
 
+from pymodm.connection import connect
+from Model.model import TodayShare
+
+from dotenv import dotenv_values
 # from bs4 import BeautifulSoup
 
 logging.basicConfig(filename='sharedata.log', level=logging.INFO,
@@ -168,6 +172,25 @@ Date: {self.new_dt}"""
 
         logging.info(f"The share data of Date:{self.new_dt} is updated")
 
+    def insertToMongo(self):
+        try:
+            TodayShare(
+                share_symbol = str(self.todayshareprice['StockSymbol']),
+                name = str(self.todayshareprice['StockName']), 
+                num_transactions = int(self.todayshareprice['NoOfTransaction']),
+                max_price = float(self.todayshareprice['MaxPrice']),
+                min_price = float(self.todayshareprice['MinPrice']),
+                closing_price = float(self.todayshareprice['ClosingPrice']),
+                difference = float(self.todayshareprice['Difference']),
+                traded_shares = float(self.todayshareprice['TradedShares']),
+                traded_amount = float(self.todayshareprice['TradedAmount']),
+                previous_closing = float(self.todayshareprice['PreviousClosing']),
+                percent_difference = float(self.todayshareprice['PercentDifference']),
+                date = str(self.new_dt)
+            ).save()
+        except Exception as e:
+            logging.error("Error discovered in Mongo is "+ e)
+
 
 '''Telegram Portion to send different types of messages'''
 
@@ -280,13 +303,18 @@ if __name__ == "__main__":
     #     bot_api = creds['Nkd_bot']
     #     channel_id = '-100'+creds['channel_ID']
 
-    my_shares = ['SGI','NIFRA','SLI','GVL','MBJC','RULB','USHEC']
+    ## ENABLE MONGODB CONNECTION
+    config = dotenv_values('.env')
+    connect(config['MONGOURL'],alias='my-app')
+    
+    my_shares = ['SGIC','NIFRA','SLI','GVL','MBJC','RULB','USHEC','TAMOR','PPL']
 
     for symbol in my_shares:
         try:
             obj = Shareprices(symbol)
             obj.writetextfile("ShareData/"+symbol.lower()+'_info.txt')
             obj.writeCsv("ShareData/"+symbol.lower()+'_today.csv')
+            obj.insertToMongo()
         except Exception as error:
             logging.error(error)
 
