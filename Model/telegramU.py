@@ -1,5 +1,6 @@
 import requests
 import logging
+from typing import Tuple
 
 '''Telegram Portion to send different types of messages'''
 logging.basicConfig(filename='telegram.log', level=logging.INFO,

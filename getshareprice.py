@@ -1,7 +1,7 @@
 import requests
 import logging
 from datetime import datetime
-from typing import Tuple
+
 import os
 import csv
 import json
