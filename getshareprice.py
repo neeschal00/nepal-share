@@ -9,6 +9,9 @@ import json
 from pymodm.connection import connect
 from Model.model import TodayShare
 from Model.telegramU import Telegram
+from datetime import datetime
+import pytz
+
 
 from dotenv import dotenv_values
 # from bs4 import BeautifulSoup
@@ -20,31 +23,41 @@ class Shareprices:
 
     def __init__(self,stckSymbol):
         self.stckSymbol = stckSymbol
+
+        self.timestamp = datetime.now(tz=pytz.timezone('Asia/Kathmandu')).timestamp() * 1000
+        logging.info("Fetchin' for Timestamp "+ str(self.timestamp))
         header = {
             'Accept':'application/json',
             'Accept-Language':'en-US,en;q=0.9',
             'Cache-Control':'no-cache',
             'Content-Type': 'application/json; charset=UTF-8',
             'Origin':'https://nepalipaisa.com',
+            'Host': 'nepalipaisa.com',
             'Pragma':'no-cache',
-            'Referer':'https://nepalipaisa.com/Todays-Share-Price.aspx',
+            'Referer':'https://nepalipaisa.com/live-market',
             'X-Requested-With':'XMLHttpRequest',
-            'Content-Length': '70',
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 Edg/87.0.664.52'}
-        link = requests.post('https://www.nepalipaisa.com/Modules/GraphModule/webservices/MarketWatchService.asmx/GetTodaySharePrices',
-                        data=json.dumps({"fromdate": "", "toDate": "", "stockSymbol": self.stckSymbol, "offset": "1", "limit": "50"}),
+        
+        params = {
+            'stockSymbol': self.stckSymbol,
+            '_': str(self.timestamp)
+        }
+        link = requests.get('https://nepalipaisa.com/api/GetStockLive',params=params,
                         headers=header)
 
-        response = link.text
+        # response = link.text
+        # print(link.content)
+        # print(link.status_code)
         # raise Exception("data")
-        self.data = link.json()
-        if self.data["d"] != []:
-            self.todayshareprice = self.data["d"][0]
+        self.data = link.json()['result']
+        # print(self.data)
+        if self.data["stocks"] != []:
+            self.todayshareprice = self.data["stocks"][0]
 
-            self.dt_obj = datetime.strptime(self.todayshareprice['AsOfDateShortString'],'%Y-%m-%d')
+            self.dt_obj = datetime.strptime(self.todayshareprice['asOfDate'],'%Y-%m-%dT%H:%M:%S')
             self.new_dt = self.dt_obj.strftime('%d %B, %Y')
         else:
-            # logging.error("")
+            logging.error("No records of the symbol "+self.stckSymbol)
             raise Exception(f"The data of {self.stckSymbol} not found")
         # self.
 
@@ -56,30 +69,30 @@ class Shareprices:
         :return: The text message consisting the information about the share prices
         """
         try:
-            tosendText = f"""Share Symbol: **{self.todayshareprice['StockSymbol']}**
-Name: __{self.todayshareprice['StockName']}__
+            tosendText = f"""Share Symbol: **{self.todayshareprice['stockSymbol']}**
+Name: __{self.todayshareprice['companyName']}__
 ************************************
-Number of transaction : **{self.todayshareprice['NoOfTransaction']}**
+Number of transaction : **{self.todayshareprice['noOfTransactions']}**
 ```
-Max Price: Rs. {self.todayshareprice['MaxPrice']}
-Min Price: Rs. {self.todayshareprice['MinPrice']}
-```
-****************
-```
-Closing Price: Rs. {self.todayshareprice['ClosingPrice']}
-Difference: {self.todayshareprice['Difference']}
+Max Price: Rs. {self.todayshareprice['maxPrice']}
+Min Price: Rs. {self.todayshareprice['minPrice']}
 ```
 ****************
 ```
-Traded Shares: {self.todayshareprice['TradedShares']}
-Traded Amount: {self.todayshareprice['TradedAmount']}
-Previous Closing: {self.todayshareprice['PreviousClosing']}
-Percent Difference: {self.todayshareprice['PercentDifference']}```
+Closing Price: Rs. {self.todayshareprice['closingPrice']}
+Difference: {self.todayshareprice['differenceRs']}
+```
+****************
+```
+Traded Shares: {self.todayshareprice['volume']}
+Traded Amount: {self.todayshareprice['amount']}
+Previous Closing: {self.todayshareprice['previousClosing']}
+Percent Difference: {self.todayshareprice['percentChange']}```
 .......................................
 Date: {self.new_dt}"""
             return tosendText
-        except:
-            return
+        except Exception as e:
+            print(e)
 
 
 
@@ -115,17 +128,17 @@ Date: {self.new_dt}"""
 
 
         row_data = {
-                    'Share Symbol': str(self.todayshareprice['StockSymbol']),
-                    'Name': str(self.todayshareprice['StockName']),
-                    'Number of transaction' : str(self.todayshareprice['NoOfTransaction']),
-                    'Max Price': 'Rs. '+ str(self.todayshareprice['MaxPrice']),
-                    'Min Price': 'Rs. ' + str(self.todayshareprice['MinPrice']),
-                    'Closing Price': 'Rs. '+ str(self.todayshareprice['ClosingPrice']),
-                    'Difference': str(self.todayshareprice['Difference']),
-                    'Traded Shares': str(self.todayshareprice['TradedShares']),
-                    'Traded Amount': str(self.todayshareprice['TradedAmount']),
-                    'Previous Closing': str(self.todayshareprice['PreviousClosing']),
-                    'Percent Difference': str(self.todayshareprice['PercentDifference']),
+                    'Share Symbol': str(self.todayshareprice['stockSymbol']),
+                    'Name': str(self.todayshareprice['companyName']),
+                    'Number of transaction' : str(self.todayshareprice['noOfTransactions']),
+                    'Max Price': 'Rs. '+ str(self.todayshareprice['maxPrice']),
+                    'Min Price': 'Rs. ' + str(self.todayshareprice['minPrice']),
+                    'Closing Price': 'Rs. '+ str(self.todayshareprice['closingPrice']),
+                    'Difference': str(self.todayshareprice['differenceRs']),
+                    'Traded Shares': str(self.todayshareprice['volume']),
+                    'Traded Amount': str(self.todayshareprice['amount']),
+                    'Previous Closing': str(self.todayshareprice['previousClosing']),
+                    'Percent Difference': str(self.todayshareprice['percentChange']),
                     'Date': self.new_dt
                 }
 
@@ -176,21 +189,21 @@ Date: {self.new_dt}"""
     def insertToMongo(self):
         try:
             TodayShare(
-                share_symbol = str(self.todayshareprice['StockSymbol']),
-                name = str(self.todayshareprice['StockName']), 
-                num_transactions = int(self.todayshareprice['NoOfTransaction']),
-                max_price = float(self.todayshareprice['MaxPrice']),
-                min_price = float(self.todayshareprice['MinPrice']),
-                closing_price = float(self.todayshareprice['ClosingPrice']),
-                difference = float(self.todayshareprice['Difference']),
-                traded_shares = float(self.todayshareprice['TradedShares']),
-                traded_amount = float(self.todayshareprice['TradedAmount']),
-                previous_closing = float(self.todayshareprice['PreviousClosing']),
-                percent_difference = float(self.todayshareprice['PercentDifference']),
+                share_symbol = str(self.todayshareprice['stockSymbol']),
+                name = str(self.todayshareprice['companyName']), 
+                num_transactions = int(self.todayshareprice['noOfTransactions']),
+                max_price = float(self.todayshareprice['maxPrice']),
+                min_price = float(self.todayshareprice['minPrice']),
+                closing_price = float(self.todayshareprice['closingPrice']),
+                difference = float(self.todayshareprice['differenceRs']),
+                traded_shares = float(self.todayshareprice['volume']),
+                traded_amount = float(self.todayshareprice['amount']),
+                previous_closing = float(self.todayshareprice['previousClosing']),
+                percent_difference = float(self.todayshareprice['percentChange']),
                 date = str(self.new_dt)
             ).save()
         except Exception as e:
-            logging.error("Error discovered in Mongo is "+ e)
+            logging.error("Error discovered in Mongo is "+ str(e))
 
 
 
@@ -209,6 +222,7 @@ if __name__ == "__main__":
     my_shares = ['SGIC','NIFRA','SLI','GVL','MBJC','RULB','USHEC','TAMOR','PPL']
 
     for symbol in my_shares:
+        logging.info("processing this page "+ symbol)
         try:
             obj = Shareprices(symbol)
             obj.writetextfile("ShareData/"+symbol.lower()+'_info.txt')

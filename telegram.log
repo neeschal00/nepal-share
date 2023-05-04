@@ -1,0 +1,66 @@
+ERROR:Expecting value: line 1 column 1 (char 0)
+ERROR:Expecting value: line 1 column 1 (char 0)
+ERROR:Expecting value: line 1 column 1 (char 0)
+ERROR:Expecting value: line 1 column 1 (char 0)
+ERROR:Expecting value: line 1 column 1 (char 0)
+ERROR:Expecting value: line 1 column 1 (char 0)
+ERROR:Expecting value: line 1 column 1 (char 0)
+ERROR:Expecting value: line 1 column 1 (char 0)
+ERROR:Expecting value: line 1 column 1 (char 0)
+INFO:Fetchin' for Timestamp 1683225618265.877
+INFO:Fetchin' for Timestamp 1683226232962.665
+INFO:Fetchin' for Timestamp 1683226568969.95
+INFO:Fetchin' for Timestamp 1683226569089.6758
+INFO:Fetchin' for Timestamp 1683226569171.993
+INFO:Fetchin' for Timestamp 1683226606379.456
+INFO:Fetchin' for Timestamp 1683226606496.919
+INFO:Fetchin' for Timestamp 1683226606618.691
+INFO:Fetchin' for Timestamp 1683226784520.325
+INFO:Fetchin' for Timestamp 1683226784661.248
+INFO:Fetchin' for Timestamp 1683226784754.2979
+ERROR:No records of the symbol SLI
+INFO:Fetchin' for Timestamp 1683226784835.8591
+INFO:Fetchin' for Timestamp 1683226784947.593
+INFO:Fetchin' for Timestamp 1683226785070.2788
+ERROR:No records of the symbol RULB
+INFO:Fetchin' for Timestamp 1683226785165.297
+INFO:Fetchin' for Timestamp 1683226785259.1118
+INFO:Fetchin' for Timestamp 1683226785360.492
+INFO:Fetchin' for Timestamp 1683226923446.045
+INFO:Fetchin' for Timestamp 1683227080997.515
+INFO:Fetchin' for Timestamp 1683227099687.416
+INFO:Fetchin' for Timestamp 1683227153894.857
+INFO:Fetchin' for Timestamp 1683227200890.753
+INFO:Fetchin' for Timestamp 1683227201415.365
+INFO:Fetchin' for Timestamp 1683227201546.704
+ERROR:No records of the symbol SLI
+INFO:Fetchin' for Timestamp 1683227438923.448
+ERROR:write() argument must be str, not None
+INFO:Fetchin' for Timestamp 1683227439015.734
+ERROR:'NoneType' object has no attribute 'splitlines'
+INFO:Fetchin' for Timestamp 1683227439123.322
+ERROR:No records of the symbol SLI
+ERROR:The data of SLI not found
+INFO:Fetchin' for Timestamp 1683227439200.239
+ERROR:'NoneType' object has no attribute 'splitlines'
+INFO:Fetchin' for Timestamp 1683227439301.5808
+ERROR:'NoneType' object has no attribute 'splitlines'
+INFO:Fetchin' for Timestamp 1683227439395.976
+ERROR:No records of the symbol RULB
+ERROR:The data of RULB not found
+INFO:Fetchin' for Timestamp 1683227439478.759
+ERROR:'NoneType' object has no attribute 'splitlines'
+INFO:Fetchin' for Timestamp 1683227439565.448
+ERROR:write() argument must be str, not None
+INFO:Fetchin' for Timestamp 1683227439648.7278
+ERROR:write() argument must be str, not None
+INFO:Fetchin' for Timestamp 1683227506475.458
+INFO:Fetchin' for Timestamp 1683227592688.893
+INFO:Fetchin' for Timestamp 1683227691748.697
+INFO:Fetchin' for Timestamp 1683227723586.432
+INFO:Fetchin' for Timestamp 1683227767881.9849
+INFO:Fetchin' for Timestamp 1683227785818.379
+INFO:Share file named 'ShareData/sgic_info.txt' created successfully and valid latest data entered
+INFO:Fetchin' for Timestamp 1683227786288.066
+INFO:Fetchin' for Timestamp 1683227786443.1401
+ERROR:No records of the symbol SLI
