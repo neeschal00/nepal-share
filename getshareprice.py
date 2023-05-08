@@ -13,7 +13,9 @@ from datetime import datetime
 import pytz
 
 
-from dotenv import dotenv_values
+# from dotenv import dotenv_values
+from dotenv import load_dotenv
+load_dotenv()
 # from bs4 import BeautifulSoup
 
 logging.basicConfig(filename='sharedata.log', level=logging.INFO,
@@ -216,8 +218,8 @@ if __name__ == "__main__":
     #     channel_id = '-100'+creds['channel_ID']
 
     ## ENABLE MONGODB CONNECTION
-    config = dotenv_values('.env')
-    connect(config['MONGOURL'],alias='my-app')
+    mongo_url = os.environ['MONGOURL']
+    connect(mongo_url,alias='my-app')
     
     my_shares = ['SGIC','NIFRA','SLI','GVL','MBJC','RULB','USHEC','TAMOR','PPL']
 
