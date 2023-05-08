@@ -12,7 +12,7 @@ jobs:
         run: |
           touch .env
           echo here
-          echo ${{ env.MY_VARIABLE }}
+          echo ${{ env.MONGOURL }}
           echo MONGOURL=${{ secrets.MONGOURL }} >> .env
           echo after
           cat .env
