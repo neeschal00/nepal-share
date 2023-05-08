@@ -6,6 +6,13 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
+      - name: 'Create env file'
+        run: |
+          touch .env
+          echo here
+          echo MONGOURL=${{ secrets.MONGOURL }} >> .env
+          echo after
+          cat .env
       - name: send telegram message on push
         uses: appleboy/telegram-action@master
         with:
