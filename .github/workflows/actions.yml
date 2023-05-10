@@ -4,6 +4,8 @@ on:
   schedule:
     # Runs "at UTC time 13:00 everyday" (see https://crontab.guru)
     - cron: '0 13 * * 0-4'
+env:
+  MONGOURL: ${{ secrets.MONGOURL }}
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,7 +17,10 @@ jobs:
       - name: 'Create env file'
         run: |
           touch .env
+          echo here
+          echo ${{ env.MONGOURL }}
           echo MONGOURL=${{ secrets.MONGOURL }} >> .env
+          echo after
           cat .env
 
       - name: setup python
