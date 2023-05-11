@@ -86,3 +86,23 @@ INFO:Share file named 'ShareData/tamor_info.txt' created successfully and valid 
 INFO:processing this page PPL
 INFO:Fetchin' for Timestamp 1683571046514.811
 INFO:Share file named 'ShareData/ppl_info.txt' created successfully and valid latest data entered
+INFO:processing this page SGIC
+INFO:Fetchin' for Timestamp 1683810767910.126
+INFO:processing this page NIFRA
+INFO:Fetchin' for Timestamp 1683810770709.2458
+INFO:processing this page SLI
+INFO:Fetchin' for Timestamp 1683810772234.804
+ERROR:No records of the symbol SLI
+ERROR:The data of SLI not found
+INFO:processing this page GVL
+INFO:Fetchin' for Timestamp 1683810773472.7969
+INFO:processing this page MBJC
+INFO:Fetchin' for Timestamp 1683810775010.844
+INFO:processing this page RULB
+INFO:Fetchin' for Timestamp 1683810776484.749
+INFO:processing this page USHEC
+INFO:Fetchin' for Timestamp 1683810778057.83
+INFO:processing this page TAMOR
+INFO:Fetchin' for Timestamp 1683810779585.255
+INFO:processing this page PPL
+INFO:Fetchin' for Timestamp 1683810781087.6628
