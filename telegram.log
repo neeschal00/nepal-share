@@ -346,3 +346,25 @@ INFO:processing this page TAMOR
 INFO:Fetchin' for Timestamp 1685365946791.625
 INFO:processing this page PPL
 INFO:Fetchin' for Timestamp 1685365957222.3499
+INFO:processing this page SGIC
+INFO:Fetchin' for Timestamp 1685452383057.96
+INFO:processing this page NIFRA
+INFO:Fetchin' for Timestamp 1685452385735.2231
+INFO:processing this page SLI
+INFO:Fetchin' for Timestamp 1685452387170.4968
+ERROR:HTTPSConnectionPool(host='nepalipaisa.com', port=443): Max retries exceeded with url: /api/GetStockLive?stockSymbol=SLI&_=1685452387170.4968 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fa5947ecb80>, 'Connection to nepalipaisa.com timed out. (connect timeout=None)'))
+INFO:processing this page GVL
+INFO:Fetchin' for Timestamp 1685452517550.573
+ERROR:HTTPSConnectionPool(host='nepalipaisa.com', port=443): Max retries exceeded with url: /api/GetStockLive?stockSymbol=GVL&_=1685452517550.573 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fa5947edc60>, 'Connection to nepalipaisa.com timed out. (connect timeout=None)'))
+INFO:processing this page MBJC
+INFO:Fetchin' for Timestamp 1685452648622.579
+INFO:processing this page RULB
+INFO:Fetchin' for Timestamp 1685452657177.424
+INFO:processing this page USHEC
+INFO:Fetchin' for Timestamp 1685452659575.898
+ERROR:HTTPSConnectionPool(host='nepalipaisa.com', port=443): Max retries exceeded with url: /api/GetStockLive?stockSymbol=USHEC&_=1685452659575.898 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fa5947edb10>, 'Connection to nepalipaisa.com timed out. (connect timeout=None)'))
+INFO:processing this page TAMOR
+INFO:Fetchin' for Timestamp 1685452789934.498
+ERROR:HTTPSConnectionPool(host='nepalipaisa.com', port=443): Max retries exceeded with url: /api/GetStockLive?stockSymbol=TAMOR&_=1685452789934.498 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fa5947eea70>, 'Connection to nepalipaisa.com timed out. (connect timeout=None)'))
+INFO:processing this page PPL
+INFO:Fetchin' for Timestamp 1685452921006.8892
