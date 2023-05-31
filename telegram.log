@@ -368,3 +368,23 @@ INFO:Fetchin' for Timestamp 1685452789934.498
 ERROR:HTTPSConnectionPool(host='nepalipaisa.com', port=443): Max retries exceeded with url: /api/GetStockLive?stockSymbol=TAMOR&_=1685452789934.498 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fa5947eea70>, 'Connection to nepalipaisa.com timed out. (connect timeout=None)'))
 INFO:processing this page PPL
 INFO:Fetchin' for Timestamp 1685452921006.8892
+INFO:processing this page SGIC
+INFO:Fetchin' for Timestamp 1685538775646.5571
+INFO:processing this page NIFRA
+INFO:Fetchin' for Timestamp 1685538778378.0059
+INFO:processing this page SLI
+INFO:Fetchin' for Timestamp 1685538780417.9412
+ERROR:No records of the symbol SLI
+ERROR:The data of SLI not found
+INFO:processing this page GVL
+INFO:Fetchin' for Timestamp 1685538782405.9429
+INFO:processing this page MBJC
+INFO:Fetchin' for Timestamp 1685538783954.2861
+INFO:processing this page RULB
+INFO:Fetchin' for Timestamp 1685538785507.267
+INFO:processing this page USHEC
+INFO:Fetchin' for Timestamp 1685538786965.0
+INFO:processing this page TAMOR
+INFO:Fetchin' for Timestamp 1685538788450.728
+INFO:processing this page PPL
+INFO:Fetchin' for Timestamp 1685538789977.01
