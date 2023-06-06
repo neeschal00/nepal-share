@@ -448,3 +448,23 @@ INFO:processing this page TAMOR
 INFO:Fetchin' for Timestamp 1685970838390.291
 INFO:processing this page PPL
 INFO:Fetchin' for Timestamp 1685970839743.4421
+INFO:processing this page SGIC
+INFO:Fetchin' for Timestamp 1686057207270.8289
+INFO:processing this page NIFRA
+INFO:Fetchin' for Timestamp 1686057210086.405
+INFO:processing this page SLI
+INFO:Fetchin' for Timestamp 1686057211690.265
+ERROR:No records of the symbol SLI
+ERROR:The data of SLI not found
+INFO:processing this page GVL
+INFO:Fetchin' for Timestamp 1686057212908.915
+INFO:processing this page MBJC
+INFO:Fetchin' for Timestamp 1686057214409.568
+INFO:processing this page RULB
+INFO:Fetchin' for Timestamp 1686057215965.7322
+INFO:processing this page USHEC
+INFO:Fetchin' for Timestamp 1686057217431.693
+INFO:processing this page TAMOR
+INFO:Fetchin' for Timestamp 1686057218906.878
+INFO:processing this page PPL
+INFO:Fetchin' for Timestamp 1686057220361.6382
