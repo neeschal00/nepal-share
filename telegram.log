@@ -1077,3 +1077,23 @@ INFO:processing this page TAMOR
 INFO:Fetchin' for Timestamp 1689858867388.488
 INFO:processing this page PPL
 INFO:Fetchin' for Timestamp 1689858868903.738
+INFO:processing this page SGIC
+INFO:Fetchin' for Timestamp 1690117845778.2532
+INFO:processing this page NIFRA
+INFO:Fetchin' for Timestamp 1690117848429.827
+INFO:processing this page SRLI
+INFO:Fetchin' for Timestamp 1690117849976.773
+INFO:processing this page GVL
+INFO:Fetchin' for Timestamp 1690117851416.517
+INFO:processing this page MBJC
+INFO:Fetchin' for Timestamp 1690117852929.956
+INFO:processing this page RULB
+INFO:Fetchin' for Timestamp 1690117854333.6338
+ERROR:No records of the symbol RULB
+ERROR:The data of RULB not found
+INFO:processing this page USHEC
+INFO:Fetchin' for Timestamp 1690117855506.178
+INFO:processing this page TAMOR
+INFO:Fetchin' for Timestamp 1690117857036.771
+INFO:processing this page PPL
+INFO:Fetchin' for Timestamp 1690117858469.1301
