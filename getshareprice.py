@@ -221,7 +221,7 @@ if __name__ == "__main__":
     mongo_url = os.environ['MONGOURL']
     connect(mongo_url,alias='my-app')
     
-    my_shares = ['SGIC','NIFRA','SRLI','GVL','MBJC','RULB','USHEC','TAMOR','PPL',"ILI"]
+    my_shares = ['SGIC','NIFRA','SRLI','GVL','MBJC','ALBSL','USHEC','TAMOR','PPL',"ILI"]
 
     for symbol in my_shares:
         logging.info("processing this page "+ symbol)
