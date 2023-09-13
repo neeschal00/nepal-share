@@ -3938,4 +3938,24 @@ Traded Amount: 2810713.6
 Previous Closing: 266.2
 Percent Difference: -3.23```
 .......................................
-Date: 12 September, 2023
+Date: 12 September, 2023Share Symbol: **MBJC**
+Name: __Madhya Bhotekoshi Jalavidyut Company Limited__
+************************************
+Number of transaction : **372**
+```
+Max Price: Rs. 269.0
+Min Price: Rs. 256.1
+```
+****************
+```
+Closing Price: Rs. 267.0
+Difference: 9.4
+```
+****************
+```
+Traded Shares: 14515
+Traded Amount: 3821773.5
+Previous Closing: 257.6
+Percent Difference: 3.65```
+.......................................
+Date: 13 September, 2023
