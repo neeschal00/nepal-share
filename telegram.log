@@ -2293,3 +2293,36 @@ INFO:Share file named 'ShareData/snli_info.txt' created successfully and valid l
 INFO:processing this page USHL
 INFO:Fetchin' for Timestamp 1697116433861.104
 INFO:Share file named 'ShareData/ushl_info.txt' created successfully and valid latest data entered
+INFO:processing this page SGIC
+INFO:Fetchin' for Timestamp 1697375394104.479
+ERROR:Expecting value: line 1 column 1 (char 0)
+INFO:processing this page NIFRA
+INFO:Fetchin' for Timestamp 1697375425239.532
+INFO:processing this page SRLI
+INFO:Fetchin' for Timestamp 1697375427200.322
+INFO:processing this page GVL
+INFO:Fetchin' for Timestamp 1697375428890.482
+ERROR:Expecting value: line 1 column 1 (char 0)
+INFO:processing this page MBJC
+INFO:Fetchin' for Timestamp 1697375459543.305
+INFO:processing this page ALBSL
+INFO:Fetchin' for Timestamp 1697375460242.501
+INFO:processing this page USHEC
+INFO:Fetchin' for Timestamp 1697375462609.001
+INFO:processing this page TAMOR
+INFO:Fetchin' for Timestamp 1697375463754.803
+ERROR:Expecting value: line 1 column 1 (char 0)
+INFO:processing this page PPL
+INFO:Fetchin' for Timestamp 1697375494873.495
+ERROR:Expecting value: line 1 column 1 (char 0)
+INFO:processing this page ILI
+INFO:Fetchin' for Timestamp 1697375525591.936
+INFO:processing this page GCIL
+INFO:Fetchin' for Timestamp 1697375526294.614
+INFO:processing this page RNLI
+INFO:Fetchin' for Timestamp 1697375527013.907
+ERROR:Expecting value: line 1 column 1 (char 0)
+INFO:processing this page SNLI
+INFO:Fetchin' for Timestamp 1697375557847.9468
+INFO:processing this page USHL
+INFO:Fetchin' for Timestamp 1697375558553.158
