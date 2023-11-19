@@ -3334,3 +3334,45 @@ ERROR:Expecting value: line 1 column 1 (char 0)
 INFO:processing this page USHL
 INFO:Fetchin' for Timestamp 1700140409698.146
 ERROR:Expecting value: line 1 column 1 (char 0)
+INFO:processing this page SGIC
+INFO:Fetchin' for Timestamp 1700399429176.146
+ERROR:Expecting value: line 1 column 1 (char 0)
+INFO:processing this page NIFRA
+INFO:Fetchin' for Timestamp 1700399429312.4968
+ERROR:Expecting value: line 1 column 1 (char 0)
+INFO:processing this page SRLI
+INFO:Fetchin' for Timestamp 1700399429369.577
+ERROR:Expecting value: line 1 column 1 (char 0)
+INFO:processing this page GVL
+INFO:Fetchin' for Timestamp 1700399429430.8528
+ERROR:Expecting value: line 1 column 1 (char 0)
+INFO:processing this page MBJC
+INFO:Fetchin' for Timestamp 1700399429491.662
+ERROR:Expecting value: line 1 column 1 (char 0)
+INFO:processing this page ALBSL
+INFO:Fetchin' for Timestamp 1700399429552.4312
+ERROR:Expecting value: line 1 column 1 (char 0)
+INFO:processing this page USHEC
+INFO:Fetchin' for Timestamp 1700399429611.006
+ERROR:Expecting value: line 1 column 1 (char 0)
+INFO:processing this page TAMOR
+INFO:Fetchin' for Timestamp 1700399429672.2961
+ERROR:Expecting value: line 1 column 1 (char 0)
+INFO:processing this page PPL
+INFO:Fetchin' for Timestamp 1700399429731.841
+ERROR:Expecting value: line 1 column 1 (char 0)
+INFO:processing this page ILI
+INFO:Fetchin' for Timestamp 1700399429795.789
+ERROR:Expecting value: line 1 column 1 (char 0)
+INFO:processing this page GCIL
+INFO:Fetchin' for Timestamp 1700399429864.6072
+ERROR:Expecting value: line 1 column 1 (char 0)
+INFO:processing this page RNLI
+INFO:Fetchin' for Timestamp 1700399429931.0542
+ERROR:Expecting value: line 1 column 1 (char 0)
+INFO:processing this page SNLI
+INFO:Fetchin' for Timestamp 1700399429988.843
+ERROR:Expecting value: line 1 column 1 (char 0)
+INFO:processing this page USHL
+INFO:Fetchin' for Timestamp 1700399430044.42
+ERROR:Expecting value: line 1 column 1 (char 0)
