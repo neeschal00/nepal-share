@@ -858,4 +858,24 @@ Traded Amount: 2422551.5
 Previous Closing: 614.0
 Percent Difference: 2.75```
 .......................................
-Date: 22 November, 2023
+Date: 22 November, 2023Share Symbol: **ALBSL**
+Name: __Asha Laghubitta Bittiya Sanstha Ltd__
+************************************
+Number of transaction : **31**
+```
+Max Price: Rs. 618.3
+Min Price: Rs. 593.9
+```
+****************
+```
+Closing Price: Rs. 615.0
+Difference: -15.9
+```
+****************
+```
+Traded Shares: 478
+Traded Amount: 289997.0
+Previous Closing: 630.9
+Percent Difference: -2.52```
+.......................................
+Date: 23 November, 2023
