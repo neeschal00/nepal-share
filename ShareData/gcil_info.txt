@@ -898,4 +898,24 @@ Traded Amount: 12016667.3
 Previous Closing: 504.0
 Percent Difference: 0.2```
 .......................................
-Date: 05 February, 2024
+Date: 05 February, 2024Share Symbol: **GCIL**
+Name: __Ghorahi Cement Industry Limited__
+************************************
+Number of transaction : **818**
+```
+Max Price: Rs. 514.9
+Min Price: Rs. 496.1
+```
+****************
+```
+Closing Price: Rs. 511.0
+Difference: 6.0
+```
+****************
+```
+Traded Shares: 25315
+Traded Amount: 12879360.7
+Previous Closing: 505.0
+Percent Difference: 1.19```
+.......................................
+Date: 06 February, 2024
