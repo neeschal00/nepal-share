@@ -758,4 +758,24 @@ Traded Amount: 3791723.5
 Previous Closing: 465.0
 Percent Difference: 1.51```
 .......................................
-Date: 28 April, 2024
+Date: 28 April, 2024Share Symbol: **VLUCL**
+Name: __Vision Lumbini Urja Company Limited__
+************************************
+Number of transaction : **166**
+```
+Max Price: Rs. 476.9
+Min Price: Rs. 466.1
+```
+****************
+```
+Closing Price: Rs. 468.0
+Difference: -4.0
+```
+****************
+```
+Traded Shares: 5368
+Traded Amount: 2529531.9
+Previous Closing: 472.0
+Percent Difference: -0.85```
+.......................................
+Date: 29 April, 2024
