@@ -3518,4 +3518,24 @@ Traded Amount: 6788425.3
 Previous Closing: 421.0
 Percent Difference: 0.48```
 .......................................
-Date: 25 June, 2024
+Date: 25 June, 2024Share Symbol: **ILI**
+Name: __IME Life Insurance Company Limited__
+************************************
+Number of transaction : **400**
+```
+Max Price: Rs. 423.0
+Min Price: Rs. 419.9
+```
+****************
+```
+Closing Price: Rs. 421.9
+Difference: -1.1
+```
+****************
+```
+Traded Shares: 15373
+Traded Amount: 6466218.2
+Previous Closing: 423.0
+Percent Difference: -0.26```
+.......................................
+Date: 26 June, 2024
