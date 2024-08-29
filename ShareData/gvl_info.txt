@@ -7738,4 +7738,24 @@ Traded Amount: 10777792.6
 Previous Closing: 574.0
 Percent Difference: -1.57```
 .......................................
-Date: 28 August, 2024
+Date: 28 August, 2024Share Symbol: **GVL**
+Name: __Green Ventures Limited__
+************************************
+Number of transaction : **308**
+```
+Max Price: Rs. 579.3
+Min Price: Rs. 556.3
+```
+****************
+```
+Closing Price: Rs. 558.0
+Difference: -7.0
+```
+****************
+```
+Traded Shares: 26681
+Traded Amount: 14970537.0
+Previous Closing: 565.0
+Percent Difference: -1.24```
+.......................................
+Date: 29 August, 2024
