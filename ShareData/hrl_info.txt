@@ -3458,4 +3458,24 @@ Traded Amount: 114687389.6
 Previous Closing: 841.0
 Percent Difference: -0.95```
 .......................................
-Date: 05 December, 2024
+Date: 05 December, 2024Share Symbol: **HRL**
+Name: __Himalayan Reinsurance Limited__
+************************************
+Number of transaction : **1257**
+```
+Max Price: Rs. 844.0
+Min Price: Rs. 820.0
+```
+****************
+```
+Closing Price: Rs. 824.0
+Difference: -9.0
+```
+****************
+```
+Traded Shares: 117257
+Traded Amount: 96953042.9
+Previous Closing: 833.0
+Percent Difference: -1.08```
+.......................................
+Date: 08 December, 2024
