@@ -3478,4 +3478,24 @@ Traded Amount: 27932970.6
 Previous Closing: 514.5
 Percent Difference: -0.87```
 .......................................
-Date: 09 December, 2024
+Date: 09 December, 2024Share Symbol: **NABIL**
+Name: __Nabil Bank Limited__
+************************************
+Number of transaction : **558**
+```
+Max Price: Rs. 514.0
+Min Price: Rs. 505.0
+```
+****************
+```
+Closing Price: Rs. 508.1
+Difference: -1.9
+```
+****************
+```
+Traded Shares: 51966
+Traded Amount: 26432713.9
+Previous Closing: 510.0
+Percent Difference: -0.37```
+.......................................
+Date: 10 December, 2024
