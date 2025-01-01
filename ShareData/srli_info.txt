@@ -6358,4 +6358,24 @@ Traded Amount: 13096379.9
 Previous Closing: 421.3
 Percent Difference: -0.33```
 .......................................
-Date: 31 December, 2024
+Date: 31 December, 2024Share Symbol: **SRLI**
+Name: __Sanima Reliance Life Insurance Limited__
+************************************
+Number of transaction : **254**
+```
+Max Price: Rs. 425.0
+Min Price: Rs. 417.1
+```
+****************
+```
+Closing Price: Rs. 420.0
+Difference: 0.1
+```
+****************
+```
+Traded Shares: 16761
+Traded Amount: 7041233.2
+Previous Closing: 419.9
+Percent Difference: 0.02```
+.......................................
+Date: 01 January, 2025
