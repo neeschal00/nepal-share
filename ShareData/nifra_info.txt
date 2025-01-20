@@ -10246,4 +10246,24 @@ Traded Amount: 24306342.4
 Previous Closing: 243.5
 Percent Difference: 2.26```
 .......................................
-Date: 19 January, 2025
+Date: 19 January, 2025Share Symbol: **NIFRA**
+Name: __Nepal Infrastructure Bank Limited__
+************************************
+Number of transaction : **776**
+```
+Max Price: Rs. 254.9
+Min Price: Rs. 246.6
+```
+****************
+```
+Closing Price: Rs. 253.0
+Difference: 4.0
+```
+****************
+```
+Traded Shares: 120755
+Traded Amount: 30173612.4
+Previous Closing: 249.0
+Percent Difference: 1.61```
+.......................................
+Date: 20 January, 2025
