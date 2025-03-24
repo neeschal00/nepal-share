@@ -8018,4 +8018,24 @@ Traded Amount: 20801933.2
 Previous Closing: 617.96
 Percent Difference: -2.94```
 .......................................
-Date: 23 March, 2025
+Date: 23 March, 2025Share Symbol: **SGIC**
+Name: __Sanima GIC Insurance Limited__
+************************************
+Number of transaction : **208**
+```
+Max Price: Rs. 608.0
+Min Price: Rs. 588.0
+```
+****************
+```
+Closing Price: Rs. 599.08
+Difference: -0.74
+```
+****************
+```
+Traded Shares: 19791
+Traded Amount: 11833497.0
+Previous Closing: 599.82
+Percent Difference: -0.12```
+.......................................
+Date: 24 March, 2025
