@@ -10498,4 +10498,24 @@ Traded Amount: 2515967.0
 Previous Closing: 575.97
 Percent Difference: 0.17```
 .......................................
-Date: 10 April, 2025
+Date: 10 April, 2025Share Symbol: **USHEC**
+Name: __Upper Solu Hydro Electric Company Limited__
+************************************
+Number of transaction : **147**
+```
+Max Price: Rs. 570.1
+Min Price: Rs. 558.0
+```
+****************
+```
+Closing Price: Rs. 562.55
+Difference: -14.39
+```
+****************
+```
+Traded Shares: 8556
+Traded Amount: 4819183.3
+Previous Closing: 576.94
+Percent Difference: -2.49```
+.......................................
+Date: 13 April, 2025
