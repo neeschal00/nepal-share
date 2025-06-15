@@ -5838,4 +5838,24 @@ Traded Amount: 7589893.4
 Previous Closing: 853.97
 Percent Difference: 0.12```
 .......................................
-Date: 12 June, 2025
+Date: 12 June, 2025Share Symbol: **NTC**
+Name: __Nepal Doorsanchar Company Limited__
+************************************
+Number of transaction : **345**
+```
+Max Price: Rs. 870.9
+Min Price: Rs. 848.0
+```
+****************
+```
+Closing Price: Rs. 848.46
+Difference: -6.5
+```
+****************
+```
+Traded Shares: 24915
+Traded Amount: 21177333.9
+Previous Closing: 854.96
+Percent Difference: -0.76```
+.......................................
+Date: 15 June, 2025
