@@ -8578,4 +8578,24 @@ Traded Amount: 94962868.8
 Previous Closing: 479.0
 Percent Difference: 2.51```
 .......................................
-Date: 02 November, 2025
+Date: 02 November, 2025Share Symbol: **RNLI**
+Name: __Reliable Nepal Life Insurance Limited__
+************************************
+Number of transaction : **480**
+```
+Max Price: Rs. 493.0
+Min Price: Rs. 481.2
+```
+****************
+```
+Closing Price: Rs. 487.9
+Difference: -3.1
+```
+****************
+```
+Traded Shares: 126777
+Traded Amount: 61968732.3
+Previous Closing: 491.0
+Percent Difference: -0.63```
+.......................................
+Date: 03 November, 2025
