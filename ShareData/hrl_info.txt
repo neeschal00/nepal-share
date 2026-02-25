@@ -8778,4 +8778,24 @@ Traded Amount: 43396460.2
 Previous Closing: 827.0
 Percent Difference: 0.73```
 .......................................
-Date: 24 February, 2026
+Date: 24 February, 2026Share Symbol: **HRL**
+Name: __Himalayan Reinsurance Limited__
+************************************
+Number of transaction : **533**
+```
+Max Price: Rs. 846.0
+Min Price: Rs. 830.0
+```
+****************
+```
+Closing Price: Rs. 837.0
+Difference: 4.0
+```
+****************
+```
+Traded Shares: 32452
+Traded Amount: 27210640.7
+Previous Closing: 833.0
+Percent Difference: 0.48```
+.......................................
+Date: 25 February, 2026
