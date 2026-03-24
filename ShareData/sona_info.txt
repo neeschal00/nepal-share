@@ -9058,4 +9058,24 @@ Traded Amount: 122608054.7
 Previous Closing: 493.9
 Percent Difference: 1.72```
 .......................................
-Date: 23 March, 2026
+Date: 23 March, 2026Share Symbol: **SONA**
+Name: __Sonapur Minerals And Oil Limited__
+************************************
+Number of transaction : **893**
+```
+Max Price: Rs. 510.0
+Min Price: Rs. 491.9
+```
+****************
+```
+Closing Price: Rs. 498.0
+Difference: -4.4
+```
+****************
+```
+Traded Shares: 142793
+Traded Amount: 71014837.3
+Previous Closing: 502.4
+Percent Difference: -0.88```
+.......................................
+Date: 24 March, 2026
