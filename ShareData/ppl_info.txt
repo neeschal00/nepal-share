@@ -12638,4 +12638,24 @@ Traded Amount: 11525877.8
 Previous Closing: 373.0
 Percent Difference: 0.27```
 .......................................
-Date: 17 April, 2026
+Date: 17 April, 2026Share Symbol: **PPL**
+Name: __People's Power Limited__
+************************************
+Number of transaction : **197**
+```
+Max Price: Rs. 379.0
+Min Price: Rs. 367.0
+```
+****************
+```
+Closing Price: Rs. 372.0
+Difference: -2.0
+```
+****************
+```
+Traded Shares: 37725
+Traded Amount: 14005590.0
+Previous Closing: 374.0
+Percent Difference: -0.53```
+.......................................
+Date: 20 April, 2026
