@@ -11478,4 +11478,24 @@ Traded Amount: 2016928.0
 Previous Closing: 577.0
 Percent Difference: -2.25```
 .......................................
-Date: 24 June, 2026
+Date: 24 June, 2026Share Symbol: **USHL**
+Name: __Upper Syange Hydropower Limited__
+************************************
+Number of transaction : **34**
+```
+Max Price: Rs. 570.0
+Min Price: Rs. 549.1
+```
+****************
+```
+Closing Price: Rs. 560.0
+Difference: -4.0
+```
+****************
+```
+Traded Shares: 1154
+Traded Amount: 643723.4
+Previous Closing: 564.0
+Percent Difference: -0.71```
+.......................................
+Date: 25 June, 2026
