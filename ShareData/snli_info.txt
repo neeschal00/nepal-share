@@ -11638,4 +11638,24 @@ Traded Amount: 4994756.0
 Previous Closing: 438.3
 Percent Difference: 0.16```
 .......................................
-Date: 03 July, 2026
+Date: 03 July, 2026Share Symbol: **SNLI**
+Name: __Sun Nepal Life Insurance Company Limited__
+************************************
+Number of transaction : **177**
+```
+Max Price: Rs. 440.0
+Min Price: Rs. 433.0
+```
+****************
+```
+Closing Price: Rs. 433.1
+Difference: -5.9
+```
+****************
+```
+Traded Shares: 5255
+Traded Amount: 2281148.3
+Previous Closing: 439.0
+Percent Difference: -1.34```
+.......................................
+Date: 06 July, 2026
