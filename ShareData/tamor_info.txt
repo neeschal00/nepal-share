@@ -14478,4 +14478,24 @@ Traded Amount: 56343568.5
 Previous Closing: 503.0
 Percent Difference: -1.17```
 .......................................
-Date: 07 September, 2026
+Date: 07 September, 2026Share Symbol: **TAMOR**
+Name: __Sanima Middle Tamor Hydropower Limited__
+************************************
+Number of transaction : **463**
+```
+Max Price: Rs. 500.0
+Min Price: Rs. 490.1
+```
+****************
+```
+Closing Price: Rs. 493.1
+Difference: -4.0
+```
+****************
+```
+Traded Shares: 266955
+Traded Amount: 132193927.3
+Previous Closing: 497.1
+Percent Difference: -0.8```
+.......................................
+Date: 09 September, 2026
